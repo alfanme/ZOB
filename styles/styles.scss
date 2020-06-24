@@ -23,10 +23,16 @@
             border-radius: $border--radius__circle;
             background-color: $bg-logo;
             @include center (row, center, center);
+            transform: scale(1);
+            transition: all 0.5s;
 
             img {
                 width: 85%;
                 height: 85%;
+            }
+
+            &:hover {
+                transform: scale(1.1);
             }
         }
 
