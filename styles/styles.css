@@ -791,6 +791,7 @@ a:visited {
   letter-spacing: 0.025rem;
   background-color: #FF6634;
   border-radius: 0.5rem;
+  color: #fff;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.3s;
