@@ -82,11 +82,11 @@
             @include btn-secondary($shopee);
         }
 
-        .btn--marketplace__wa {
+        .btn--sosmed__wa {
             @include btn-primary ($whatsapp, none);
         }
 
-        .btn--marketplace__ig {
+        .btn--sosmed__ig {
             @include btn-primary (none, $ig);
             a {
                 img {
@@ -95,7 +95,7 @@
             }
         }
 
-        .btn--marketplace__fb {
+        .btn--sosmed__fb {
             @include btn-primary ($fb, none);
             a {
                 img {
@@ -104,23 +104,33 @@
             }
         }
 
+        .btn--pricelist {
+            @include btn-secondary ($pricelist);
+        }
+
         #separate {
             margin-top: 2rem;
         }
 
-        p {
-            margin-top: 3rem;
-            text-align: center;
-            font-family: Roboto;
-            font-size: 0.75rem;
-            color: $cp;
 
-            a {
+        .footer {
+            margin-top: auto;
+            p {
+                margin-top: 3rem;
+                text-align: center;
                 font-family: Roboto;
                 font-size: 0.75rem;
-                font-weight: 500;
-                color: $medium-text;
+                color: $cp;
+
+                a {
+                    font-family: Roboto;
+                    font-size: 0.75rem;
+                    font-weight: 500;
+                    color: $medium-text;
+                }
             }
         }
     }
 }
+
+@import 'pricelist';
