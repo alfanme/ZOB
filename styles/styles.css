@@ -191,16 +191,16 @@ a:visited {
 }
 
 .container .card .btn--marketplace__shopee {
-  border: 0.1rem solid #E94F1F;
+  border: 0.1rem solid #FF6634;
 }
 
 .container .card .btn--marketplace__shopee:hover {
-  background-color: #E94F1F;
-  border: 0.1rem solid #E94F1F;
+  background-color: #FF6634;
+  border: 0.1rem solid #FF6634;
 }
 
 .container .card .btn--marketplace__shopee a {
-  color: #E94F1F;
+  color: #FF6634;
 }
 
 .container .card .btn--marketplace__wa, .container .card .btn--marketplace__ig, .container .card .btn--marketplace__fb {
