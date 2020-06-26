@@ -17,8 +17,8 @@
         @include center (column, center, center);
 
         .profile {
-            width: 7em;
-            height: 7em;
+            width: 5em;
+            height: 5em;
             margin-top: 3rem;
             border-radius: $border--radius__circle;
             background-color: $bg-logo;
@@ -38,10 +38,39 @@
 
         .header__name {
             font-family: Roboto;
-            font-weight: 500;
+            font-weight: 300;
             text-align: center;
             font-size: 1.5rem;
+            color: $dark-text;
             margin-bottom: 3rem;
+        }
+
+        .illustration {
+            width: 90%;
+            margin-bottom: 0.5rem;
+
+            @media (min-width: 43em) {
+                width: 70%;
+            }
+
+            img {
+                margin-bottom: 2rem;
+            }
+
+            h2 {
+                text-align: center;
+                font-family: Roboto;
+                font-weight: 500;
+                font-size: 1.25rem;
+                color: $dark-text;
+            }
+        }
+
+        .link-section {
+            font-family: Roboto;
+            font-weight: 300;
+            font-size: 0.9rem;
+            color: $medium-text;
         }
 
         .btn--marketplace__tokopedia {
@@ -49,7 +78,7 @@
             height: 3.5rem;
             margin: 0.5rem 0;
             border-radius: $border--radius__small;
-            border: 0.12rem solid $tokopedia;
+            border: 0.1rem solid $tokopedia;
             background-color: #fff;
             transform: scale(1);
             transition: all 0.3s;
@@ -75,18 +104,18 @@
                     height: 2rem;
                     margin-top: -0.2rem;
                     margin-right: 1rem;
-                    border-radius: $border--radius__small;
+                    // border-radius: $border--radius__small;
                 }
             }
         }
 
         .btn--marketplace__shopee {
             @extend .btn--marketplace__tokopedia;
-            border: 0.12rem solid $shopee;
+            border: 0.1rem solid $shopee;
 
             &:hover {
                 background-color: $shopee;
-                border: 0.12rem solid $shopee;
+                border: 0.1rem solid $shopee;
             }
 
             a {
@@ -157,6 +186,10 @@
                     margin-top: 0rem;
                 }
             }
+        }
+
+        #separate {
+            margin-top: 2rem;
         }
 
         p {
