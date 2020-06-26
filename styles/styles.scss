@@ -114,6 +114,13 @@
             font-family: Roboto;
             font-size: 0.75rem;
             color: $cp;
+
+            a {
+                font-family: Roboto;
+                font-size: 0.75rem;
+                font-weight: 500;
+                color: $medium-text;
+            }
         }
     }
 }

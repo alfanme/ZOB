@@ -396,4 +396,11 @@ a:visited {
   font-size: 0.75rem;
   color: #B0BEC5;
 }
+
+.container .card p a {
+  font-family: Roboto;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #78909C;
+}
 /*# sourceMappingURL=styles.css.map */
